@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon">
+    <title>Portfólio Ensino Médio Técnico</title>
+    <link rel="stylesheet" href="Css e JS/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Css e JS/style.css" />
+    <script defer src="Css e JS/app.js"></script>
+    <style>
+        html, body {
+            margin: 0 !important;
+            padding: 0 !important;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+
+        #container {
+            border: 0;
+            display: flex;
+            background-color: white;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        #div0, #div1, #div2, #div3, #div4, #div5 {
+            width: 100%;
+            height: 100%;
+            display: block;
+            text-align: center;
+        }
+
+        #div0 {
+            background-image: url('Imagens/Fundodiv0.png');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            width: 100%;
+            height: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media (max-width: 767px) {
+            #div0 img.portfolio {
+                width: 60%;
+                left: 20%;
+            }
+        }
+        #div0 img {
+            width: 30%;
+            height: auto;
+            position: absolute;
+            top: 70px;
+            left: 170px;
+        }
+
+        #div0 img.portfolio {
+            width: 40%;
+            height: auto;
+            position: absolute;
+            top: 35px;
+            left: 650px;
+        }
+
+        #div1 {
+    background: linear-gradient(#da7b00, #da8b25, #eead59);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#div1 img.areasdoconhecimento {
+    width: 10%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav img {
+    width:160px;
+    height: 160px;
+}
+#div2 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 70%;
+}
+
+.section {
+    flex: 1;
+    position: relative;
+}
+
+#div2 .section img {
+    width: 140%;
+    height: 55%;
+    margin-top: 70%;
+    margin-left: -25%;
+}
+#div2 img {
+            width: 30%;
+            height: auto;
+            position: absolute;
+            top: 100px;
+            left: 170px;
+}
+                .section:nth-child(1) {
+            background-color: #FFE5AE;
+
+        }
+
+        .section:nth-child(2) {
+            background-color: #FFD67D;
+        }
+
+        .section:nth-child(3) {
+            background-color: #FFCB5A;
+        }
+
+        .section:nth-child(4) {
+            background-color: #FFBE2F;
+        }
+
+        .section:nth-child(5) {
+            background-color: #FFB40E;
+        }
+
+        #div2 img {
+    position: absolute;
+    width: 45%;
+    height: 15%;
+    top: 30px;
+    left: 20px;
+    z-index: 1;
+}
+        #div3 {
+    background: #faa80f;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+}
+#div3 h1{
+margin-bottom: 10px;
+    color: white;
+    margin-top: -20px;
+}
+
+#div3 p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+form {
+    width: 100%;
+    max-width: 30rem;
+    margin-right: 35rem;
+    margin-top: 5px;
+}
+
+#div4 {
+    background-color: #FFCB5A;
+    text-align: right;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+#div4 .box p {
+    margin: 0;
+}
+
+#div4 .boxTitulo {
+    padding: 25px;
+}        
+    </style>
+</head>
+
+<body>
+<header>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-xl navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="Imagens/logo.png" alt="Logo">
+            </a>
+    
+            <div class="navbar-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#div1">Áreas do Conhecimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#div2">Tecnologias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#div3">Sugestão</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#div4">Sobre Mim</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+</header>
+<div id="container">
+    <div id="div0"><!--Bloco de Apresentação-->
+        <img src="Imagens/Foto.png" alt="Imagem artista" width="100%">
+        <img class="portfolio" src="Imagens/Portfolio.png" alt="Ilustração" width="100%">
+    </div>
+    <div id="div1"><!--Bloco Áreas do conhecimento-->
+        <img src="Imagens/Áreas do conhecimento.png" alt="Imagem artista" width="100%">
+        <nav>
+            <a href="Html/ciencias_natureza.html" target="_blank">
+                <img src="Imagens/ciencias_natureza.png" alt="Ciências da Natureza"></a>
+            <a href="Html/matematica.html" target="_blank">
+                <img src="Imagens/matematica.png" alt="Mátemática"></a>
+            <a href="Html/ciencias_humanas.html" target="_blank">
+                <img src="Imagens/ciencias_humanas.png" alt="Ciências Humanas"></a>
+            <a href="Html/informatica.html" target="_blank">
+                <img src="Imagens/informatica.png" alt="Informática"></a>
+            <a href="Html/linguagens.html" target="_blank">
+                <img src="Imagens/linguagens.png" alt="Linguagens"></a>
+        </nav>
+    </div>
+    <div id="div2"><!--Bloco tecnologia-->
+        <img src="Imagens/Tecnologias.png" alt="Tecnologias" width="100%">
+        <div class="section">
+            <nav>
+                <a href="Html/automacao.html" target="_blank">
+                    <img src="Imagens/automacao.png" alt="Ciências da Natureza"></a></nav>
+                </div>
+        <div class="section">
+            <nav>
+                <a href="Html/metaverso.html" target="_blank">
+                    <img src="Imagens/metaverso.png" alt="Ciências da Natureza"></a></nav>
+                </div>
+        <div class="section">
+            <nav>
+                <a href="Html/inteligencia_artificial.html" target="_blank">
+                    <img src="Imagens/inteligencia_artificial.png" alt="Ciências da Natureza"></a></nav>
+                </div>
+        <div class="section">
+            <nav>
+                <a href="Html/realidade_aumentada.html" target="_blank">
+                    <img src="Imagens/realidade_aumentada.png" alt="Ciências da Natureza"></a></nav>
+                </div>
+        <div class="section">
+            <nav>
+                <a href="Html/machine_learning.html" target="_blank">
+                    <img src="Imagens/machine_learning.png" alt="Ciências da Natureza">
+                </a>
+            </nav>
+        </div>
+    </div>
+    <div id="div3"><!--Bloco Sugestões-->
+        <h1>Caixa de mensagens aberta !</h1>
+    <b><p>Joga a mensagem aqui, uma ideia, uma dúvida ou só um 'alô' mesmo! </p></b>
+    <b><p>Esse campo está aberto para suas palavras, sinta-se à vontade !</p></b>
+           <form action="https://formsubmit.co/Laiscarvalho858@gmail.com"
+            method="POST">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required />
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" required></textarea>
+            <button type="submit" data-button>Enviar</button>
+            </form></div>
+            
+    <div id="div4">
+        <div class="box">
+            <b><h1 class="boxTitulo">Eai, gostou do que viu até agora?</h1></b>
+            <p> Isso tudo foi só um resumo de uma trajetória que tive nos meus últimos 3 anos de ensino médio técnico, foi um prazer compartilhar um pouco disto tudo com você. Agora que você já pode conhecer um pouco dos meus projetos e pesquisas, que tal conhecer mais sobre mim?  </p><br>
+            <a href="/Html/sobremim.html" target="_blank" class="btn" style="text-decoration: none; padding: 10px 20px; background-color: #ffa600; color: #ffffff; border: none; border-radius: 5px; cursor: pointer;">Perfil Profissional</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+    
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
+<script src="Css e JS/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
