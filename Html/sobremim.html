@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../imagens/personagem.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sobre mim</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css e JS/style.css" />
+    <style>
+       html,
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif, 'Roboto';
+            box-sizing: border-box;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            border: 0;
+            background: linear-gradient(to bottom, #a87c5b, #a06d47, #88532B);
+            background-size: cover;
+            background-position: center;
+        }
+
+        #container img {
+            width: 20%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0.445);
+            border-radius: 10px;
+            padding: 80px;
+            margin: auto;
+            text-align: center;
+            margin-top: 5px;
+            width: 90%;
+            box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .box p {
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
+        .boxTitulo {
+            padding: 25px;
+        }
+
+        .box img {
+            width: 120%;
+            height: auto;
+            max-width: 100%;
+            display: block;
+            border-radius: 5px;
+        }
+
+        .boxText {
+            flex: 1;
+            text-align: left;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <img src="../Imagens/personagem.png" alt="EU" width="100%">
+        <div class="box">
+            <div class="boxText">
+                <h1>Quem sou eu?</h1>
+                <br>
+                <p>Sou estudante do terceiro ano do ensino médio, atualmente realizando o curso técnico de programação de sistemas no Senac. Tenho experiência em trabalhar em grupos, habilidades no uso do pacote Office, escrita, computação, gerenciamento de projeto e tempo.</p>
+                <br>
+                <h1>Qualificações Profissionais:</h1>
+                <br>
+
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                <b>Curso técnico Assistente de Suporte e Manutenção de Computadores - Senac</b>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <strong>Conteúdo: </strong>
+                                <br>
+                                ▪ Planejar e executar a montagem de computadores.<br>
+                                ▪ Planejar e executar a instalação de hardware e software para computadores.<br>
+                                ▪ Planejar e executar a manutenção de computadores. <br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                <b>Curso técnico Assistente de Operação de Redes - Senac</b>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <strong>Conteúdo:</strong>
+                                <br>
+                                ▪ Planejar e executar a instalação de redes locais de computadores.<br>
+                                ▪ Planejar e executar a manutenção de redes locais de computadores.<br>
+                                ▪ Planejar e executar a instalação, a configuração e o monitoramento de sistemas operacionais de redes locais–servidores.<br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                <b>Curso técnico Assistente de Desenvolvimento de Aplicativos Computacionais - Senac <i>(Cursando)</i></b>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <strong>Conteúdo:</strong>
+                                <br>
+                                ▪ Desenvolver Algoritmos.<br>
+                                ▪ Desenvolver banco de dados.<br>
+                                ▪ Executar teste e implantação de aplicativos computacionais.<br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                <b>Projetos de Sistemas de TI - Fundação Bradesco</b>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <img src="../Imagens/Certificado-de-projetos-de-sistemas-de-TI.jpg" alt="Design Gráfico 1" style="width: 100%; max-width: 600px;">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                <b>Segurança em Tecnologia da Informação - Fundação Bradesco</b>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <img src="../Imagens/Certificado-de-Segurança-em-tecnologia-da-informação.jpg" alt="" style="width: 100%; max-width: 500px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <p>Me acompanhe também nas outras redes:</p>
+            <a href="https://www.linkedin.com/in/lais-carvalho-123595216" target="_blank" class="btn text-center" style="text-decoration: none; padding: 10px 20px; background-color:#d89613; color: #ffffff; border: none; border-radius: 5px; cursor: pointer; margin-bottom: 10px;">Linkedin</a>
+            <a href="https://github.com/LaysC?tab=repositories" target="_blank" class="btn text-center" style="text-decoration: none; padding: 10px 20px; background-color:#d89613; color: #ffffff; border: none; border-radius: 5px; cursor: pointer; margin-bottom: 10px;">Github</a>
+            <a href="../index.html" target="_blank" class="btn" style="text-decoration: none; padding: 10px 20px; background-color:#051937; color: #ffffff; border: none; border-radius: 5px; cursor: pointer;">Voltar para página principal</a>
+        
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html> 

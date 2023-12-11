@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../imagens/Headermachine.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Machine Learning</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css e JS/style.css" />
+    <style> 
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family:'Poppins', sans-serif, 'Roboto';
+            box-sizing: border-box;
+            height: 100%;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background:#7493c2;
+        }
+
+        #container img {
+            width: 15%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        #container section#Oqueé img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+
+        .box {
+            background-color: rgba(255, 255, 255, 0.445);
+            border-radius: 10px;
+            padding: 80px;
+            margin-top: 5px;
+            text-align: center;
+            width: 90%;
+            box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .box p {
+            margin-top: 0;
+        }
+
+        .boxTitulo {
+            padding: 0px;
+        }
+
+        .boxTitulosection {
+            padding: 15px;
+            text-align: left;
+        }
+
+    </style>
+</head>
+<div id="container">
+    <div class="box">
+        <b><h1 class="boxTitulo">Machine Learning</h1></b>
+        <p class="resumo">O que é Machine Learning ? Quais os tipos? Como entrar na carreira de machine learning?</p>
+        <div>
+            <a href="#Oqueé" class="btn btn-outline-dark" style="margin-right: 10px;">O que é?</a>
+            <a href="#tipos" class="btn btn-outline-dark" style="margin-right: 10px;">Principas algoritmos</a>
+            <a href="#cursos" class="btn btn-outline-dark">Cursos Relacionados à Machine Learning</a>
+            <a href="#vantagensedesafios" class="btn btn-outline-dark">Vantagens e Desafios</a>
+            <a href="#referencias" class="btn btn-outline-dark">Referências</a>
+        </div>
+        
+        <section id="Oqueé">
+        <b><h1 class="boxTitulosection">O que é Machine Learning ?</h1></b>
+        <p>Machine learning é uma área da inteligência artificial (IA) e da ciência da computação que se concentra no uso de dados e algoritmos para imitar a maneira como os humanos aprendem, melhorando gradualmente sua precisão.</p>
+        <img src="../Imagens/machine-learning.jpg" alt="Inteligência Artificial">
+    </section>
+
+    <section id="tipos">
+        <br><h1 class="boxTitulosection"><b>Principais algoritmos</b></h1>
+        <p>Alguns algoritmos de machine learning são comumente usados. São eles:</p>
+    
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne"><b>Redes neurais</b></button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        <strong>As Redes neurais</strong>, simulam a forma como o cérebro humano funciona, com um grande número de nós de processamento interligados. As redes neurais têm a capacidade de reconhecer padrões e desempenham um papel importante nos aplicativos, incluindo tradução de linguagem natural, reconhecimento de imagem, reconhecimento de voz e criação de imagem.
+                    </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo"><b>Regressão linear</b></button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>Regressão linear</strong>, é um algoritmo usado para prever valores numéricos com base em um relacionamento linear entre diferentes valores. Por exemplo, a técnica poderia ser usada para prever preços de imóveis residenciais com base nos históricos de dados da região.
+                    </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree"><b>Regressão logística</b></button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>Regressão logística</strong>, se refere ao uso de algoritmos de aprendizado não supervisionado, armazenamento em cluster podem identificar padrões nos dados para que possam ser agrupados. Os computadores podem ajudar os cientistas de dados identificando diferenças entre itens de dados que os humanos não perceberam.
+                    </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour"><b>Agrupamento</b></button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>Agrupamento</strong>, é um algoritmo de aprendizado supervisionado faz previsões para variáveis de resposta categórica, como perguntas de respostas "sim/não". Pode ser usado para aplicações como classificação de spam e controle de qualidade em uma linha de produção.
+                    </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive"><b>Árvores de decisão</b></button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>As Árvores de decisão</strong>, podem ser usadas tanto para prever valores numéricos (regressão) quanto para classificar dados em categorias. As árvores de decisão usam uma sequência de ramificação de decisões vinculadas que podem ser representadas com um diagrama de árvore. Uma das vantagens das árvores de decisão é que elas são fáceis de validar e auditar, diferente da caixa preta da rede neural.
+                    </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix"><b>Floresta aleatória</b></button>
+                </h2>
+                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>As Árvores de decisão</strong>, em uma floresta aleatória, o algoritmo de machine learning prediz um valor ou categoria combinando os resultados de várias árvores de decisão.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+        <section id="cursos">
+          <b><h1 class="boxTitulosection">Cursos Relacionados à IA</h1></b>
+          <p>Na era da automação, onde a tecnologia se redefine constantemente como dinâmicas de trabalho, em busca de uma carreira sólida na área que exige uma educação especializada. Cursos como Engenharia de Controle e Automação, Ciência da Computação, e especializações em Inteligência Artificial e Machine Learning são trampolins cruciais para adquirir as habilidades mais fáceis. Escolher instituições reconhecidas amplia não apenas o conhecimento teórico, mas também oferece oportunidades práticas, criando uma base robusta para enfrentar os desafios crescentes do cenário automatizado. Nesta seção, exploraremos cursos e faculdades que moldam profissionais aptos a liderar e inovar na revolução da automação.</p>
+          
+          <div class="d-flex flex-row justify-content-between">
+          <div class="card" style="width: 20rem;">
+              <img src="../Imagens/cursointeligenciaartificial.jpg" class="card-img-top" alt="Inteligência Artificial" style="width: 100%;">
+              <div class="card-body">
+                  <h5 class="card-title">Inteligência Artificial</h5>
+                  <p class="card-text"> A graduação em Inteligência Artificial é formada por disciplinas teóricas e práticas, que tratam de assuntos típicos das áreas de Tecnologia da Informação e Computação. O curso conta também com estudos que exigem conhecimentos de matemática e raciocínio lógico, mas especialistas indicam que mesmo quem não curte muito esses assuntos podem ter bom desempenho. os profissionais graduados em Inteligência Artificial poderão ser contratados para planejar, desenvolver e gerenciar sistemas de dados e de inteligência artificial.</p>
+              </div>
+          </div>
+          <div class="card" style="width: 20rem;">
+            <img src="../Imagens/engenharia-da-computacao.jpg" class="card-img-top" alt="Engenharia de Computação" style="width: 100%;">
+            <div class="card-body">
+                <h5 class="card-title">Engenharia de Computação</h5>
+                <p class="card-text">O curso de Engenharia da Computação é uma graduação voltada para a formação de profissionais capazes de projetar, desenvolver e implementar sistemas computacionais e eletrônicos, possui uma grande variedade de áreas de atuação, desde o desenvolvimento de hardware e software, até a criação de dispositivos eletrônicos, robótica, criação de IA's e automação industrial. Há uma ampla possibilidade de atuação profissional, em empresas de tecnologia, indústrias, empresas de telecomunicações, instituições financeiras e outras áreas que necessitam de tecnologia para suas operações.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+          <img src="../Imagens/Ciências da computação.jpeg" class="card-img-top" alt="Ciência da Computação" style="width: 100%;">
+          <div class="card-body">
+              <h5 class="card-title">Ciência da Computação</h5>
+              <p class="card-text"> O curso de Ciência da Computação, possui muitas disciplinas de Matemática e boa parte da estrutura curricular é composta por disciplinas destinadas ao aprendizado das linguagens de programação mais utilizadas. A faculdade tem duração média de 4 anos, pode ser do tipo bacharelado ou licenciatura. O profissional formado em Ciência da Computação pode trabalhar em qualquer empresa que utilize uma rede de computadores. O setor industrial costuma absorver grande parte dos profissionais formados nessa área.</p>
+          </div>
+      </div>
+      </section>
+
+      <section id="vantagensedesafios">
+        <br><b><h1 class="boxTitulosection">Vantagens e Desafios</h1></b>
+        <b><h2> Vantagens</h2></b>
+        <Strong> - Processamento De Dados Ilimitados:</Strong> Com a quantidade de dados gerados na atualidade, é humanamente impossível processar tudo sem o suporte da tecnologia. Graças a Big Data se vale da Inteligência Artificial e suas respectivas ferramentas, é possível captar, integrar, analisar e interpretar informações de diferentes tamanhos e formatos e com muito mais rapidez. É a partir desse processamento que as empresas podem extrair insights para melhorar a experiência do usuário.<br><br>
+        <Strong> - Eficiência:</Strong> A partir da automatização de certas tarefas burocráticas, é possível aumentar o nível de assertividade, uma vez que o erro humano vai quase inexistir. Um exemplo prático de quanto a tecnologia pode melhorar a eficiência de uma empresa é na manutenção preditiva. Quando você consegue antecipar certos problemas, em vez de reparar as consequências depois que eles já ocorrem, economiza tempo e dinheiro.<br><br>
+        <Strong> - Aprendizado E Melhoria Contínua:</Strong> Trata-se da capacidade de aprender de maneira autônoma e entregar respostas que vão se mostrando mais assertivas com o passar do tempo. Além disso, o Machine Learning, sempre que colocado em contato com novas variáveis, reprograma-se, atualizando as configurações conforme os dados recém-chegados.<br><Br>
+
+
+<h1>X</h1>
+
+        <b><h2> Desafios</h2></b>
+        <Strong> - Singularidade tecnológica: </Strong>A discussão em torno da singularidade tecnológica, também conhecida como superinteligência, levanta questões éticas sobre o desenvolvimento de tecnologias de IA que poderiam ultrapassar as capacidades humanas. Embora a superinteligência não seja iminente, dilemas éticos emergem ao considerar a autonomia de sistemas, como carros autônomos, destacando a necessidade de debates sobre responsabilidade legal e limitações tecnológicas para garantir o uso seguro e ético dessas inovações.<br><br>
+        <Strong> - Privacidade: </Strong>A discussão sobre privacidade concentra-se na proteção de dados, impulsionando avanços legislativos recentes, como o GDPR na União Europeia. Nos EUA, leis estaduais, como o CCPA, reforçam a transparência na coleta de dados, levando as empresas a priorizar investimentos em segurança para mitigar riscos de violações e ataques cibernéticos, refletindo uma mudança nas práticas de armazenamento e uso de informações pessoais.<br><br>
+        <Strong> - Preconceito e discriminação: </Strong>Casos de preconceito e discriminação em vários sistemas inteligentes levantaram muitas questões éticas relacionadas ao uso da inteligência artificial. Como podemos nos proteger contra o preconceito e a discriminação quando os próprios dados de treinamento podem ser gerados por processos humanos com desvios?<br>
+    </section>
+
+    <section id="referencias">
+      <br><br><br><b><h1 class="boxTitulosection">Fontes</h1></b>
+      <p>O que é machine learning? | IBM. Disponível em: <https://www.ibm.com/br-pt/topics/machine-learning>. Acesso em: 7 dez. 2023.</p>
+      <p>FIA; FIA. Machine Learning: como funciona, benefícios, tipos e exemplos. Disponível em: <https://fia.com.br/blog/machine-learning/>. Acesso em: 7 dez. 2023.</p>
+    
+      <a href="../index.html" target="_blank" class="btn" style="text-decoration: none; padding: 10px 20px; background-color:#051937; color: #ffffff; border: none; border-radius: 5px; cursor: pointer;">Voltar para página principal</a>
+
+    </section>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../imagens/Headerautomacao.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Automação</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css e JS/style.css" />
+    <style> 
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family:'Poppins', sans-serif, 'Roboto';
+            box-sizing: border-box;
+            height: 100%;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background:#051937;
+        }
+
+        #container img {
+            width: 15%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        #container section#Oqueé img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+
+        .box {
+            background-color: rgba(255, 255, 255, 0.445);
+            border-radius: 10px;
+            padding: 80px;
+            margin-top: 5px;
+            text-align: center;
+            width: 90%;
+            box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .box p {
+            margin-top: 0;
+        }
+
+        .boxTitulo {
+            padding: 0px;
+        }
+
+        .boxTitulosection {
+            padding: 15px;
+            text-align: left;
+        }
+
+    </style>
+</head>
+<div id="container">
+    <div class="box">
+        <b><h1 class="boxTitulo">Automação</h1></b>
+        <p class="resumo">O que é Automação? Quais os tipos? Quais as vantagens e desafios? </p>
+        <div>
+            <a href="#Oqueé" class="btn btn-outline-dark" style="margin-right: 10px;">O que é?</a>
+            <a href="#tipos" class="btn btn-outline-dark" style="margin-right: 10px;">Tipos de automação</a>
+            <a href="#vantagensedesafios" class="btn btn-outline-dark">Vantagens e Desafios</a>
+            <a href="#referencias" class="btn btn-outline-dark">Referências</a>
+        </div>
+        
+        <section id="Oqueé">
+        <b><h1 class="boxTitulosection">O que é Automação?</h1></b>
+        <p> Automação é o uso sistemas de controle e de tecnologias para executar tarefas com o mínimo de assistência humana possível. A automação pode ser usada por qualquer setor que envolva tarefas repetitivas, mas é mais frequente nos setores de manufatura, robótica, automobilística e também tecnologia, presente em sistemas de TI e software de decisão de negócios. Tendo a proposta de redução da necessidade de uso contínuo dos sentidos humanos para inspeção e da capacidade mental humana para controle.</p>
+        <img src="../Imagens/Automacaoexemplo.jpg" alt="Automaçãoo">
+    </section>
+
+        <section id="tipos">
+            <b><h1 class="boxTitulosection">Tipos de Automação</h1></b>
+
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">Automação industrial</button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                      <strong>Seu objetivo principal é melhorar o funcionamento de uma empresa.</strong> A automação em fábrica envolve a redução do trabalho humano em processos de manufatura. Chegando ao ponto em que trabalhadores humanos apenas supervisionam um painel de controle ou outra interface de interação entre humanos e máquinas. Ao falarmos sobre o assunto surgiram três formas de automação industrial sendo elas:<br><br> 
+                       <strong>- Automação Fixa:</strong> É mais rígida e adequada para altas demandas de produção, executando tarefas específicas. Quando é necessário realizar novas funções, é necessária uma reconfiguração completa dos equipamentos e sistemas. <br><br> 
+                       <strong>- Automação Programável:</strong> Ideal para a produção de diferentes mercadorias, pois os equipamentos podem ser reprogramados para cada lote. A reconfiguração exige tempo, pois é necessário ajustar ferramentas, máquinas e sistemas.<br><br> 
+                       <strong>- Automação Flexível:</strong> Permite mudanças rápidas no design dos produtos. A reconfiguração é fácil e ágil, proporcionando maior flexibilidade na diversidade de produção. Não requer o uso de sistemas de lotes, e em alguns casos, é possível produzir apenas uma peça, se desejado.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">Automação Residencial</button></h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <strong>Já ouviu falar da "Alexa"?</strong> É possível controlar a temperatura e garantir a segurança, conforto e sustentabilidade dos lares. Muitos desses equipamentos podem ser controlados diretamente pelos celulares (alguns até por comando de voz). Alguns destes dispositivos são controlados por pequenos motores elétricos, por exemplo, podem ser adquiridos a baixo custo para facilitar as tarefas cotidianas.<br><br>
+                      Este tipo de automação pode ser encontrado em câmeras, fechaduras, lâmpadas e tomadas inteligentes, ar condicionado, controles universais, etc.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">Automatização de Processos de Negócios (BPA)</button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      <strong>Business process automation (BPA).</strong> É o uso de software para automatizar transações empresariais reproduzíveis e em várias etapas. Utilizado para minimizar custos, aumentar a eficiência e agilizar processos. Em comparação com outros tipos de automação, as soluções de BPA costumam ser complexas, conectadas a vários sistemas de TI empresariais e personalizadas especificamente para as necessidades das organizações. Possui os seguintes benefícios: <br><br>
+                      <Strong> - Eficiência Operacional</Strong> Automatização de tarefas repetitivas e manuais. Execução mais rápida e com menos erros. Liberação de tempo para tarefas estratégicas.<br> <br> 
+                      <Strong> - Redução de Custos</Strong> Diminuição de custos associados a erros e retrabalho. Utilização mais eficiente de recursos. <br><br>
+                      <Strong> - Qualidade Consistente</Strong> Padronização na execução de tarefas. Melhoria da qualidade dos resultados. <br><br>
+                      <Strong> - Visibilidade e Controle</Strong>Monitoramento em tempo real dos processos. Insights analíticos para tomada de decisões.<br><br>
+                      <Strong> - Agilidade e Adaptabilidade</Strong>Resposta rápida às mudanças nas condições do mercado
+                  </div>
+                </div>
+              </div>
+        </section>
+        
+      <section id="vantagensedesafios">
+        <br><b><h1 class="boxTitulosection">Vantagens e Desafios</h1></b>
+
+        <b><h2> Vantagens</h2></b>
+        <Strong> - Aumento de produtividade: </Strong> sua equipe pode investir mais tempo em tarefas que causam mais impacto aos negócios. Deixe as tarefas de repetição a cargo do software.<br>
+        <Strong> - Confiabilidade:</Strong> com a redução de intervenções humanas, há menos equívocos e, como consequência, menos problemas. As mesmas tarefas são realizadas sempre da mesma maneira. Assim, você sabe exatamente quando os processos, os testes, as atualizações, os fluxos de trabalho, etc. acontecerão, quanto tempo levarão e pode confiar nos resultados.<br>
+        <Strong> - Governança facilitada: </Strong>quanto mais pessoas envolvidas, maior a probabilidade de existirem obstáculos de conhecimento. Dessa forma, um lado da empresa talvez não saiba o que ou quem está envolvido nos processos do outro lado. Ao codificar tudo, você obtém um maior e melhor controle sobre seus negócios.<br><Br>
+
+<h1>X</h1>
+
+        <b><h2> Desafios</h2></b>
+        <Strong> - Custo: </Strong> criar uma solução de automação eficaz demanda tempo e energia.<br>
+        <Strong> - Escopo: </Strong>automação não significa inteligência. Dependendo dos componentes automatizados e de como foram construídos, algumas partes podem ficar vulneráveis fora desse escopo. Para reduzir essa preocupação, é possível limitar a automação em alguns aspectos ou funções. Lembre-se de que a inteligência e a segurança da automação dependerão do modo como ela for implementada.
+    </section>
+
+    <section id="referencias">
+      <br><b><h1 class="boxTitulosection">Fontes</h1></b>
+      <p>O que é automação? Disponível em: <https://www.redhat.com/pt-br/topics/automation#vantagens>. Acesso em: 5 dez. 2023.</p>
+      <p> ‌GUIA DA CARREIRA. Ciência da Computação: o que é, o que faz e onde trabalhar. Disponível em: <https://www.guiadacarreira.com.br/blog/ciencia-da-computacao>. Acesso em: 5 dez. 2023.</p>
+      <p>‌GUIA DA CARREIRA. Engenharia Mecatrônica: o que faz? Conheça a área. Disponível em: <https://www.guiadacarreira.com.br/blog/engenharia-mecatronica>. Acesso em: 5 dez. 2023.</p>
+      <p>‌O Guia Completo para Automação de Processos de Negócios (BPA) – foxfly IT & Marketing. Disponível em: <https://foxfly.com.br/o-guia-completo-para-automacao-de-processos-de-negocios-bpa/>. Acesso em: 5 dez. 2023.</p>
+      <p>‌CRAVO, E. Tipos de automação: descubra quais são eles e veja exemplos. Disponível em: <https://blog.kalatec.com.br/tipos-de-automacao/>. Acesso em: 5 dez. 2023.</p>
+ 
+      <a href="../index.html" target="_blank" class="btn" style="text-decoration: none; padding: 10px 20px; background-color:#051937; color: #ffffff; border: none; border-radius: 5px; cursor: pointer;">Voltar para página principal</a>
+
+ 
+    </section>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../imagens/Headerrealidade.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Realidade Aumentada</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css e JS/style.css" />
+    <style> 
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family:'Poppins', sans-serif, 'Roboto';
+            box-sizing: border-box;
+            height: 100%;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background:#58719d;
+        }
+
+        #container img {
+            width: 15%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        #container section#Oqueé img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+
+        .box {
+            background-color: rgba(255, 255, 255, 0.445);
+            border-radius: 10px;
+            padding: 80px;
+            margin-top: 5px;
+            text-align: center;
+            width: 90%;
+            box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .box p {
+            margin-top: 0;
+        }
+
+        .boxTitulo {
+            padding: 0px;
+        }
+
+        .boxTitulosection {
+            padding: 15px;
+            text-align: left;
+        }
+
+
+    </style>
+</head>
+<div id="container">
+    <div class="box">
+        <b><h1 class="boxTitulo">Realidade Aumentada</h1></b>
+        <p class="resumo">O que é Realidade Aumentada? Quais os tipos? RA no mercado de trabalho, como funciona?</p>
+        <div>
+            <a href="#Oqueé" class="btn btn-outline-dark" style="margin-right: 10px;">O que é?</a>
+            <a href="#tipos" class="btn btn-outline-dark" style="margin-right: 10px;">Tipos de RA</a>
+            <a href="#Profissões" class="btn btn-outline-dark">Profissões relacionados à RA</a>
+            <a href="#vantagensedesafios" class="btn btn-outline-dark">Vantagens e Desafios</a>
+            <a href="#referencias" class="btn btn-outline-dark">Referências</a>
+        </div>
+        
+        <section id="Oqueé">
+            <br> <br><b><h1 class="boxTitulosection">O que é Realidade Aumentada?</h1></b>
+        <p>A realidade aumentada é uma versão aprimorada e interativa de um ambiente real obtido por meio de elementos visuais, sonoros e outros estímulos sensoriais digitais por meio de tecnologia holográfica. A RA incorpora três recursos: uma combinação de mundos digitais e físicos, as interações feitas em tempo real e a identificação 3D exata de objetos virtuais e reais.</p>
+        <img src="../Imagens/realidadeaumentadaexemplo.jpg" alt="Realidade Aumentada">
+    </section>
+
+                <section id="tipos">
+                <br><b><h1 class="boxTitulosection">Tipos de realidade aumentada</h1></b>
+                    <p>À medida que surgem cada vez mais formas de realidade virtual, acompanhar o ritmo torna-se um desafio devido às nuances sutis. Os formatos de realidade digital são variados, sendo estes alguns deles:</p>
+                
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">Realidade aumentada (RA)</button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <strong>RA</strong>, projetada para adicionar elementos digitais em exibições do mundo real com interação limitada.
+                                </div>
+                            </div>
+                        </div>
+                
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">Realidade virtual (RV)</button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>RV</strong>, experiências de imersão que ajudam a isolar os usuários do mundo real, geralmente por meio de um headset e fones de ouvido projetados para tais atividades.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">Realidade misturada (RM)</button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>RM</strong>, combinar elementos de RA e RV para que os objetos digitais possam interagir com o mundo real permite às empresas criar elementos ancorados em um ambiente real.
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">Realidade estendida (RE)</button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>RE</strong>, abrangendo todos os tipos de tecnologias que aperfeiçoam nossos sentidos, incluindo os três tipos previamente mencionados.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <br><p>Há também dois tipos de realidade aumentada: com base em marcador e sem marcadores. Essa escolha determinará como você poderá exibir imagens e informações.</p>
+
+                    <div class="accordion" id="accordionNewE">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-new-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-new-collapseOne">RA baseada em marcador</button>
+                            </h2>
+                            <div id="panelsStayOpen-new-collapseOne" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>Baseada em marcador</strong>, é criada usando reconhecimento de imagem para identificar objetos já programados no seu aplicativo ou dispositivo de RA. Ao inserir objetos na visualização como pontos de referência, eles podem ajudar o dispositivo a determinar a posição e a orientação da câmera. Geralmente, isso é obtido ao alternar a câmera para escala de cinza e detectar um marcador para compará-lo com os demais no seu banco de informações. Depois que o dispositivo encontra uma correspondência, ele usa os dados para determinar matematicamente a pose e insere a imagem de RA no local correto.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-new-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-new-collapseTwo">RA sem marcador</button>
+                            </h2>
+                            <div id="panelsStayOpen-new-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>Sem marcador</strong>, não há nenhum ponto para o dispositivo se concentrar. Por isso, o dispositivo deve reconhecer itens conforme são exibidos no modo de exibição. Ao usar um algoritmo de reconhecimento, o dispositivo procura cores, padrões e recursos semelhantes para determinar o que é o objeto e, em seguida, usando o tempo, o acelerômetro, o GPS e as informações da bússola, ele se orientará e usará uma câmera para sobrepor a imagem desejada no ambiente real.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+        <section id="Profissões">
+        <!--  <b><h1 class="boxTitulosection">Profissões relacionados à RA</h1></b>
+          <p>A Realidade Aumentada (RA) no local de trabalho beneficia os funcionários ao melhorar o aprendizado e a compreensão por meio de treinamentos interativos em dispositivos de RA. Essa abordagem flexível permite que os colaboradores adquiram habilidades profissionais essenciais a qualquer hora e em qualquer lugar. Além disso, a RA facilita a orientação remota, promovendo uma colaboração eficaz e condições de trabalho mais seguras, resultando em uma experiência de aprendizagem mais enriquecedora e adaptável. Há uma variedade de cursos para quem deseja entrar no campo da realidade aumentada (RA). Aqui estão algumas áreas de estudo e cursos que podem ser úteis:</p>
+          <div class="d-flex flex-row justify-content-center">
+          <div class="card" style="width: 20rem;">
+              <img src="../Imagens/Desenvolvimento de Software e Programação.jpg" class="card-img-top" alt="Engenharia de Software" style="width: 100%;">
+              <div class="card-body">
+                  <h5 class="card-title">Engenharia de Software</h5>
+                  <p class="card-text"> A ciência que estuda a aplicação de princípios de engenharia no desenvolvimento de softwares. Ela engloba processos, metodologias, técnicas e ferramentas para a produção de sistemas complexos, garantindo sua qualidade, eficiência e segurança, desde a programação até a manutenção. O profissional poderá projetar, testar e fazer manutenção de softwares, sistemas, jogos, aplicativos e plataformas digitais. No mercado de trabalho, a área de atuação que se destaca é a de Tecnologia da Informação, desenvolvendo softwares para empresas ou projetos com financiamento próprio ou sob demanda para clientes isolados.</p>
+              </div>
+          </div>
+
+          <div class="card" style="width: 20rem;">
+            <img src="../Imagens/Design de Games.jpg" class="card-img-top" alt="Design de Jogos" style="width: 100%;">
+            <div class="card-body">
+                <h5 class="card-title">Design de Jogos</h5>
+                <p class="card-text">O curso foca o desenvolvimento de habilidades essenciais para a criação de jogos digitais, abrangendo desde a concepção de ideias até a produção final. Engloba diversas disciplinas, como narrativa, mecânicas de jogo, design de personagens e ambientes, programação, marketing e monetização. Os alunos adquirem proficiência em ferramentas e softwares especializados, como motores gráficos, físicos e realidade aumentada, além de linguagens de programação relevantes para a indústria de jogos. Dada a natureza dinâmica da indústria, os profissionais formados especialmente se mantêm atualizados com as últimas tendências e tecnologias.</p>
+            </div>
+        </div>
+      </section>-->
+
+      <section id="vantagensedesafios">
+        <br><b><h1 class="boxTitulosection">Vantagens e Desafios</h1></b>
+
+        <b><h2> Vantagens</h2></b>
+        <Strong> - A RA oferece uma ampla variedade de aplicativos em melhoria contínua</Strong><br>
+        <Strong> - A tecnologia possibilita aumentar a precisão e a eficiência</Strong><br>
+        <Strong> - A experiência ou o conhecimento podem ser compartilhados a longas distâncias</Strong><br><Br>
+
+<h1>X</h1>
+
+        <b><h2> Desafios</h2></b>
+        <Strong> - Os custos de implementação de RA são comparativamente altos</Strong><br>
+        <Strong> - Muitos dispositivos oferecem um baixo nível de desempenho</Strong><br>
+        <Strong> - A falta de privacidade do usuário</Strong><br>
+    </section>
+
+    <section id="referencias">
+      <br><br><br><b><h1 class="boxTitulosection">Fontes</h1></b>
+      <p>MICROSOFT CORPORATION. O que é análise aumentada (RA) | Microsoft Dynamics 365. Disponível em: <https://dynamics.microsoft.com/pt-br/mixed-reality/guides/what-is-augmented-reality-ar/>. Acesso em: 6 dez. 2023.</p>
+      <p> Engenharia de Software. Disponível em: <https://querobolsa.com.br/cursos-e-faculdades/engenharia-de-software>. Acesso em: 6 dez. 2023.</p>
+      <p>Design de Games. Disponível em: <https://querobolsa.com.br/cursos-e-faculdades/design-de-games>. Acesso em: 6 dez. 2023.</p>
+      <p>HENZE, A. Realidade Aumentada (RA) vs Realidade Virtual (RV) | A diferença explicada. Disponível em: <https://www.teamviewer.com/pt-br/realidade-aumentada-vs-realidade-virtual/>. Acesso em: 6 dez. 2023.</p>
+  
+      <a href="../index.html" target="_blank" class="btn" style="text-decoration: none; padding: 10px 20px; background-color:#051937; color: #ffffff; border: none; border-radius: 5px; cursor: pointer;">Voltar para página principal</a>
+
+    </section>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
